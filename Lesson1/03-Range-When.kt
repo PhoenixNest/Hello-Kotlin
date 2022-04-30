@@ -1,3 +1,5 @@
+package Lesson1
+
 fun main() {
     val score = 96
     checkScore_Range_Style(score)
@@ -13,7 +15,7 @@ fun checkScore_Range_Style(score: Int) {
     } else if (score in 61..80) {
         println("you score -> B")
     } else if (score in 81..90) {
-        println("you score -> A")
+        println("you score -> Lesson1.A")
     } else {
         println("you score -> S")
     }

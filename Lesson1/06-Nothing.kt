@@ -1,3 +1,5 @@
+package Lesson1
+
 fun main() {
     println("Hello World")
 
@@ -11,7 +13,7 @@ private fun checkScore(score: Int) {
         -1 -> TODO("Error")
         in 0..59 -> println("C")
         in 60..70 -> println("B")
-        in 71..100 -> println("A")
+        in 71..100 -> println("Lesson1.A")
     }
 }
 

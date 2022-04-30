@@ -1,24 +1,26 @@
+package Lesson1
+
 fun main() {
     println("Hello World")
 
-    function1("text")
+    function1("text.txt")
     function2withDefaultValue(num = 10)
     function3withAllDefaultValue()
-    function4named(text = "text")
+    function4named(text = "text.txt")
 
     function5withoutReturn()
 }
 
 fun function1(text: String) {
-    println("function1: $text")
+    println("Lesson1.function1: $text")
 }
 
-fun function2withDefaultValue(text: String = "default text", num: Int) {
+fun function2withDefaultValue(text: String = "default text.txt", num: Int) {
     println("function2: $text, num: $num")
 
 }
 
-fun function3withAllDefaultValue(text: String = "default text", num: Int = 100) {
+fun function3withAllDefaultValue(text: String = "default text.txt", num: Int = 100) {
     println("function3: $text, num: $num")
 }
 

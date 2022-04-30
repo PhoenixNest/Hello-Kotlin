@@ -1,3 +1,5 @@
+package Lesson1
+
 fun main() {
     val school = "school"
     println("Go to $school")

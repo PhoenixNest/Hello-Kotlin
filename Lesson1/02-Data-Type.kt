@@ -1,8 +1,10 @@
+package Lesson1
+
 // we can only use the const outside the fun
 // the difference between "const val" (also called precompiled value) and simple "val"
 // (1) "const val" will pe recompiled before we call the function, and its value will be set only once all the time
 // (2) "val" means: read-only value, it will be compiled after the function call, and we can't use "const" inner fun body
-const val Base = "Base"
+const val Base = "Lesson1.Base"
 const val PI = 3.1415f
 
 fun main() {
